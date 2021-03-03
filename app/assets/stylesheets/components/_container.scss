@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    background-color: white;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.card-category {
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    padding: 1em;
+  }
+
+.card-white {
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 12px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    padding: 1em;
+}
+  
